@@ -1,0 +1,76 @@
+.container{
+	text-align: center;
+}
+
+* {
+   box-sizing: border-box; 
+  }
+  body {
+    margin: 0;
+  }
+  #main {
+    display: flex;
+    min-height: calc(100vh - 40vh);
+  }
+  #main > article {
+    flex: 1;
+  }
+  #main > nav, 
+  #main > aside {
+    flex: 0 0 20vw;
+    background: beige;
+  }
+  #main > nav {
+    order: -1;
+  }
+  header, footer, article, nav, aside {
+  	text-align: center;
+    padding: 1em;
+  }
+  header, footer {
+    background: yellowgreen;
+    height: 20vh;
+  }+-+
+
+
+.third{
+	text-align: center;
+	color: #ff0000;
+}
+
+.five.{
+	color: #ff0000;
+}
+
+.five1{
+	text-align: center;
+	color: #ff0000;
+}
+
+.six{
+	color: #ff0000;
+}
+.seven{
+	color: #ff0000;
+}
+
+.eight{
+	color: #ff0000;
+}
+.nine{
+	text-align: center;
+}
+
+.nine1{
+	text-align: center;
+	margin: 1 0px;
+	padding: 1 5px;
+}
+
+.nine2{
+	text-align: center;
+}
+.he{
+	background-color:rgb(211, 242, 250);
+}
+
